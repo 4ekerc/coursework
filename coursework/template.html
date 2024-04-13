@@ -16,13 +16,18 @@
     </style>
 </head>
 <body>
+    <form action="/" method="GET">
+        <p>Введите город для поиска</p>
+        <input type="text" name="city" placeholder="City">
+        <button type="submit">Найти</button>
+    </form>
     <div id="openweathermap-widget-18" class="container-widget container-widget--18">
         <div id="container-openweathermap-widget-18">
             <link href="https://openweathermap.org/themes/openweathermap/assets/vendor/owm/css/openweathermap-widget-right.min.css" rel="stylesheet">
             <div class="widget-right widget-right--type5 widget-right--brown">
                 <div class="widget-right__layout widget-right__layout--brown">
                     <div class="widget-right-card">
-                        <div class="widget-right__title">Симферополь</div>
+                        <div class="widget-right__title">{CITY_NAME}</div>
                         <div class="widget-right__description">{weatherDescription}</div>
                     </div>
                     <img src="{weatherIconUrl}" width="64" height="64" class="weather-right__icon weather-right__icon--type5 weather-right__icon--brown">
