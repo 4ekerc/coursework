@@ -129,9 +129,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="timeData.cpp" />
+    <ClCompile Include="weatherData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mainHeader.h" />
+    <ClInclude Include="time.h" />
+    <ClInclude Include="weather.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="template.html" />
